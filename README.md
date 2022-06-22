@@ -8,6 +8,7 @@ Projet EPSI sur la réalisation d'une API en lien avec les diagrammes de classes
 
 
 ### Compte utilisateur
+<br><br>
 - Pour **se connecter** à un compte, il faut :
 <br>
 url : **/user/login**<br>
@@ -26,7 +27,6 @@ data : JSON
 url : **/user/logout<br>
 method : **POST**<br>
 <br><br>
-
 - Pour **renseigner un contacts** dans son agenda, il faut :
 <br>
 Content-Type : **application/json**<br>
@@ -41,6 +41,7 @@ data : JSON
         apartenance_utilisateur : <utilisateur connecte>
     }
 }
+    <br><br>
   - Pour **supprimer un contact** dans son agenda, il faut :
 <br>
   url : **/user/deleteuser<br>
@@ -53,6 +54,7 @@ data : JSON
         apartenance_utilisateur : <utilisateur connecte>
     }
 }
+    <br><br>
     - Pour **modifier un contact** dans son agenda, il faut :
 <br>
     url : **/user/modifyuser<br>
@@ -69,6 +71,7 @@ data : JSON
         apartenance_utilisateur : <utilisateur connecte>
     }
 }
+    <br><br>
       - Pour **ajouter un contact** dans son agenda, il faut :
 <br>
     url : **/user/adduser<br>
