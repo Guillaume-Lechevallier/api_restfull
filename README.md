@@ -1,3 +1,7 @@
+# utilisation de l'API
+api réalisé en Node.JS
+Pour lancer l'API, rendez-vous sur le chemin d'index.js, allumez un CMD et écrivez "node index.js"
+
 # Composant_metier_agenda
 
 
